@@ -51,14 +51,12 @@ Chatbot AI
   DB_PASSWORD=<mật khẩu>
   DB_HOST=<host>
   DB_PORT=<cổng kết nối>
-  TB_NAME=<tên bảng>
+  DB_SSLMODE=<phương thức SSL>
   ```
 
 - ***Trong trường hợp bạn chưa có database, bạn có thể khởi tạo database bằng cách:***
 
   - Chỉnh **DB_NAME** theo tên database bạn muốn tạo.
-
-  - Chỉnh **TB_NAME** theo tên table bạn muốn tạo.
 
   - Chỉnh sửa dữ liệu theo ý muốn trong file **app/db/model.py** hoặc để nguyên theo mẫu có sẵn ( gồm id, tên, danh mục, màu sắc và giá tiền ).
   

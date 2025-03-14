@@ -1,0 +1,12 @@
+fastapi==0.110.0
+uvicorn==0.29.0
+openai==1.13.3
+python-dotenv==1.0.1
+sqlalchemy==2.0.38
+alembic==1.14.1
+psycopg2-binary==2.9.10
+langchain==0.3.20
+langchain-openai==0.3.7
+langchain-google-genai==2.0.10
+google-generativeai==0.8.4
+faker==36.1.1
